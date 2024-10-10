@@ -16,7 +16,7 @@
             position: absolute;
             inset: 0;
             background: linear-gradient(
-                180deg, transparent 0%, #48CFCB 100%
+                180deg, transparent 0%, #48CFCB 150%
             )
         }
     }
@@ -26,6 +26,10 @@
         bottom: 0;
 
         padding: 24px;
+
+        &:has(.text-lg) {
+            padding: 12px;
+        }
 
         h2 {
             margin-top: 8px;
